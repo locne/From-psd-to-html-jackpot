@@ -1,0 +1,176 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+#main-content{
+    min-width: 1080px;
+    display: block;
+    background: url('../img/background.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;   
+}
+.wrap-main{
+    width: 1080px;
+    height: 1440px;
+    margin: auto;
+}
+.wrap-logo img, .wrap-logo h1{
+    display: inline-block;
+    vertical-align: middle;  
+}
+.logo{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #FFF;
+    width: 50px;
+    padding: 0;
+    margin: 0;   
+}
+.wrap-logo{
+    float: right;
+    margin: 90px 90px 0 0 ;
+}
+.wrap-award{
+    padding-top: 152px; 
+}
+.wrap-award p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0;
+}
+#award-first-row{
+    font-size: 110px;
+    margin: 0;
+}
+#award-second-row{
+    font-size: 52px;
+    margin-left: 260px;  
+}
+#award-third-row{
+    font-size: 80px;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+#jackpot{
+    margin-top: -170px;
+    margin-left: 250px;
+}
+.text-shadow{
+    text-shadow: 5px 4px #000;
+}
+.games-played, .bet-info{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 110px 0 0 0;
+}
+.games-played{
+    margin-left: 10px;
+}
+.games-played p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #FFF;
+}
+.game-number{
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 120px;
+}
+.game-number:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 2px solid #112534;
+}
+.game-number p{
+    font-size: 50px;
+    color: #FFF;
+    background-color: #143A4F;
+    display: inline;
+    padding: 0 10px;
+    border: solid 1px #17384B;
+    border-radius: 4px;
+}
+.bet-info p{
+    font-size: 70px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0;
+    width: 670px;
+}
+.yellow-string{
+    color: #FCBD11;
+}
+.hr{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -220px;
+    background: #FFC714;
+    opacity: 0.4;
+}
+.wrap-content-rules{
+    width: 100%;
+    height: 300px;
+    margin-top: 105px;
+    border: 1px solid #AD8D18;
+}
+.rules img, .rules p{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.title-rules {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #1F2A28;
+    margin: 0;    
+}
+.wrap-title-rules{
+    width: 224px;
+    height: 63px;
+    line-height: 63px;
+    background: #FFC714;
+    text-align: center; 
+}
+.rules p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    width: 580px; 
+    margin: 17px 0 17px 9px;  
+}
+.wrap-rules, .play-button-shaddow{
+    display: inline-block;
+    vertical-align: middle;
+}
+.play-button{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #FFC714;
+    width: 345px;
+    height: 74px;
+    border: 0;
+    border-radius: 50px;
+    margin: 13px 16px;
+    cursor: pointer;
+}
+.play-button-shaddow{
+    width: 375px;
+    height: 100px;
+    background-color: rgba(255,199,20,0.6);
+    border-radius: 50px;
+    border: 1px solid #1D261B;
+    cursor: pointer;
+}
